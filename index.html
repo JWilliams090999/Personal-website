@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!--Bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--Bootstrap Icons link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Joseph-Williams-Portfolio</title>  
+     <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <i class="bi bi-house-door"></i>
+        </a>
+
+    <button class="navbar-toggler"
+      data-bs-toggle="collapse"
+      data-bs-target="#nav-collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div id="nav-collapse" class="collapse navbar-collapse">
+          <div class="navbar-nav ms-auto"> 
+            <a href="#mission-target" class="nav-link">Mission</a>
+            <a href="#skills-target" class="nav-link">Skills</a>
+            <a href="#contact-target" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+  	<section id="hero-section" class="hero-background">
+      <div class="circle-container">
+        <img class="headshot" src="img/hero.jpg" >
+      </div>
+          <div class=hero-text>
+             <h1>Joseph Williams</h1>
+             <p>Turning code into what is envisioned</p>
+          </div>
+    </section>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+        <h1 class="my-mission">My Mission</h1>
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-sm-12 col-md-6">
+            <img class=mission-goal src="img/code.jpg" >
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <p class="mm-text">My mission is simple. I want to create what people can envision. Bringing their dreams to reality with coding. All while enjoying the challenge of debugging any potential issues.</p>
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+<section id="skills-section">
+  <h1 class="skills">Skills</h1>
+<div class="row">
+    <!--HTML  -->
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card text-bg-secondary mb-3">
+         <img src="img/html-logo.png" class="card-img-top" alt="html-logo">
+        <div class="card-body">
+          <p class="card-text text-center">Structuring the web's content using modern semantic HTML.</p>
+        </div>
+      </div>
+    </div>
+    <!--CSS  -->
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card text-bg-secondary mb-3">
+        <img src="img/css-icon.png" class="card-img-top" alt="html-logo">
+      <div class="card-body">
+        <p class="card-text text-center">Presenting beautiful web designs and interactions using modern CSS.</p>
+      </div>
+    </div>
+  </div>
+    <!--Bootstrap-->
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card text-bg-secondary mb-3">
+        <img src="img/bootstrap-icon.png" class="card-img-top" alt="html-logo">
+      <div class="card-body">
+        <p class="card-text text-center">Developing responsive websites using the web's most popular framework.</p>
+      </div>
+    </div>
+  </div>
+  <!--Javascript  -->
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card text-bg-secondary mb-3">
+      <img src="img/javascript.png" class="card-img-top" alt="html-logo">
+      <div class="card-body">
+        <p class="card-text text-center">Making interactive experiences, games, web apps, and more using javascript.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+  
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <div class="contact-heading">
+        <h1>Contact</h1>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-4">
+          <div class="contact-linkedin">
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="contact-instagram">
+              <i class="bi bi-instagram"></i>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--Carousel section -->
+    <div id="carousel-section" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQkJzGjwnMmbX6c3_xPYZv9g6MNRzUq6kJfuuCBldKsWjSQZ6pviVStsQtE8ybH8ZLzTzdRiorMrPVX0A4" class="d-block w-100" alt="Albert Einstein" >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Albert Einstein</h5>
+            <p>Einstein was my first inspiration while in school.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="https://m.media-amazon.com/images/M/MV5BMzMzNzRiNTEtZDhlNi00ZjVhLWIzZmItZjA0MDhmZmY3Y2RlXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg" class="d-block w-100" alt="Vince Lombardi">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vince Lombardi</h5>
+            <p>Perfection is not attainable, but if we chase perfection we can catch excellence.</p>
+          </div>
+        </div>
+        <div class="carousel-item"  data-bs-interval="5000">> 
+          <img src="https://i.scdn.co/image/ab676161000051741b6b9d83cfd806b328496207" class="d-block w-100" alt="Toby Keith">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Toby Keith</h5>
+            <p>An inspiration to me, his music shows he was a proud American!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-section" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-section" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Footer section -->
+    <section id="footer-section">
+      <p>© Joseph Williams 2024<p>
+  
+    </section>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
